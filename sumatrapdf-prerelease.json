@@ -17,10 +17,10 @@
         "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
         "}"
     ],
-    "bin": "SumatraPDF-prerelease-11133-64.exe",
+    "bin": [ ["SumatraPDF-prerelease-11133-64.exe", "SumatraPDF.exe"] ],
     "shortcuts": [
         [
-            "SumatraPDF.exe",
+            "SumatraPDF-prerelease-11133-64.exe",
             "SumatraPDF"
         ]
     ],
