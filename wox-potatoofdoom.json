@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/PotatoOfDoom/Wox",
+    "version": "1.3.551",
+    "url": "https://github.com/PotatoOfDoom/Wox/releases/download/1.3.551/Wox-1.3.551.zip",
+    "hash": "sha1:E83E67A0D35BBC686DFDDDEAEB65EE0A48FD41E5",
+    "bin": "Wox.exe",
+    "shortcuts": [
+        [
+            "Wox.exe",
+            "Wox"
+        ]
+    ]
+}
