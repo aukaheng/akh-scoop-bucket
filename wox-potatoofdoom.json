@@ -9,5 +9,9 @@
             "Wox.exe",
             "Wox"
         ]
-    ]
+    ],
+    "suggest": {
+        "Python3": "python",
+        "Everything": "everything"
+    }
 }
