@@ -1,0 +1,17 @@
+{
+    "homepage": "http://www.91fk.net/",
+    "version": "1.2",
+    "hash": "8A3BC98986931D8163D86E24C92D0DB759D1EF8C683AEEAA009A24F50F016504",
+    "url": "https://github.com/beckzhu/SimpleRemote/releases/download/1.2/SimpleRemote.6.7.zip",
+    "bin": "SimpleRemote.exe",
+    "shortcuts": [
+        [
+            "SimpleRemote.exe",
+            "SimpleRemote"
+        ]
+    ],
+    "persist": [
+        "Data\RemoteItems.db",
+        "Data\UserSettings.xml"
+    ]
+}
