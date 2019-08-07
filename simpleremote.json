@@ -10,26 +10,6 @@
       "SimpleRemote"
     ]
   ],
-  "pre_install": [
-    "if (!(Test-Path \"$persist_dir\\Data\\UserSettings.xml\")) {",
-    "  New-Item \"$dir\\Data\" -ItemType \"directory\"",
-    "  New-Item \"$dir\\Data\\UserSettings.xml\" -ItemType \"file\"",
-    "  Set-Content \"$dir\\Data\\UserSettings.xml\" '<?xml version=\"1.0\" encoding=\"utf-8\"?>'",
-    "  Add-Content \"$dir\\Data\\UserSettings.xml\" '<Settings>'",
-    "  Add-Content \"$dir\\Data\\UserSettings.xml\" '  <General TrayIcon=\"False\" NewAppDataLocation=\"2\" />'",
-    "Add-Content \"$dir\\Data\\UserSettings.xml\" '<UserHabits MainWindow_Width=\"1000\" MainWindow_Height=\"800\" MainWindow_Maximize=\"False\" Home_IsPaneOpen=\"True\" HomeRemoteTreeView_Width=\"260\" FinalCheckDateTime=\"\">'",
-    "Add-Content \"$dir\\Data\\UserSettings.xml\" '<RemoteTreeView /></UserHabits>'",
-    "  Add-Content \"$dir\\Data\\UserSettings.xml\" '</Settings>'",
-    "}",
-    "if (!(Test-Path \"$persist_dir\\Data\\RemoteItems.db\")) {",
-    "  Start-Process -FilePath \"$dir\\SimpleRemote.exe\"",
-    "  while (!(Test-Path \"$dir\\Data\\RemoteItems.db\")) {",
-    "    Start-Sleep -Milliseconds 500",
-    "  }",
-    "  Start-Sleep 1",
-    "  Stop-Process -Name SimpleRemote",
-    "}"
-  ],
   "persist": [
     "Data\\RemoteItems.db",
     "Data\\UserSettings.xml"
