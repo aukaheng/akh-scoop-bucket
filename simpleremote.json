@@ -11,12 +11,22 @@
     ]
   ],
   "pre_install": [
-    "if (!(Test-Path \"$persist_dir\\UserSettings.xml\")) {",
+    "if (!(Test-Path \"$persist_dir\\Data\\UserSettings.xml\")) {",
     "  New-Item \"$dir\\Data\" -ItemType \"directory\"",
     "  New-Item \"$dir\\Data\\UserSettings.xml\" -ItemType \"file\"",
-    "  Set-Content \"$dir\\Data\\UserSettings.xml\" '<Settings>'",
-    "  Set-Content \"$dir\\Data\\UserSettings.xml\" '  <General />'",
-    "}"
+    "  Set-Content \"$dir\\Data\\UserSettings.xml\" '<?xml version=\"1.0\" encoding=\"utf-8\"?>'",
+    "  Add-Content \"$dir\\Data\\UserSettings.xml\" '<Settings>'",
+    "  Add-Content \"$dir\\Data\\UserSettings.xml\" '  <General TrayIcon=\"False\" NewAppDataLocation=\"2\" />'",
+    "  Add-Content \"$dir\\Data\\UserSettings.xml\" '</Settings>'",
+    "}",
+    "if (!(Test-Path \"$persist_dir\\Data\\RemoteItems.db\")) {",
+    "  Start-Process -FilePath \"$dir\\SimpleRemote.exe\"",
+    "  while (!(Test-Path \"$dir\\Data\\RemoteItems.db\")) {",
+    "    Start-Sleep -Milliseconds 500",
+    "  }",
+    "  Start-Sleep 1",
+    "  Stop-Process -Name SimpleRemote",
+    "}",
   ],
   "persist": [
     "Data\\RemoteItems.db",
