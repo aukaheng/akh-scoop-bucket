@@ -17,6 +17,8 @@
     "  Set-Content \"$dir\\Data\\UserSettings.xml\" '<?xml version=\"1.0\" encoding=\"utf-8\"?>'",
     "  Add-Content \"$dir\\Data\\UserSettings.xml\" '<Settings>'",
     "  Add-Content \"$dir\\Data\\UserSettings.xml\" '  <General TrayIcon=\"False\" NewAppDataLocation=\"2\" />'",
+    "Add-Content \"$dir\\Data\\UserSettings.xml\" '<UserHabits MainWindow_Width=\"1000\" MainWindow_Height=\"800\" MainWindow_Maximize=\"False\" Home_IsPaneOpen=\"True\" HomeRemoteTreeView_Width=\"260\" FinalCheckDateTime=\"\">'",
+    "Add-Content \"$dir\\Data\\UserSettings.xml\" '<RemoteTreeView /></UserHabits>'",
     "  Add-Content \"$dir\\Data\\UserSettings.xml\" '</Settings>'",
     "}",
     "if (!(Test-Path \"$persist_dir\\Data\\RemoteItems.db\")) {",
