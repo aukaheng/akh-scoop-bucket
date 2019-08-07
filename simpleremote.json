@@ -12,8 +12,9 @@
   ],
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\UserSettings.xml\")) {",
-    "  New-Item \"$persist_dir\\UserSettings.xml\" -ItemType File",
-    "  Set-Content \"$persist_dir\\UserSettings.xml\" '<Settings>Welcome to TutorialsPoint</Settings>'",
+    "  New-Item \"$dir\\Data\\UserSettings.xml\" -ItemType File",
+    "  Set-Content \"$dir\\Data\\UserSettings.xml\" '<Settings>'",
+    "  Set-Content \"$dir\\Data\\UserSettings.xml\" '  <General />'",
     "}"
   ],
   "persist": [
