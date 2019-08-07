@@ -10,6 +10,7 @@
       "SimpleRemote"
     ]
   ],
+  "pre_install": "New-Item \"$dir\\Data\" -ItemType \"directory\"",
   "persist": [
     "Data\\RemoteItems.db",
     "Data\\UserSettings.xml"
