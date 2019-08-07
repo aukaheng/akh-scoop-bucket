@@ -12,7 +12,8 @@
   ],
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\UserSettings.xml\")) {",
-    "  New-Item \"$dir\\Data\\UserSettings.xml\" -ItemType File",
+    "  New-Item \"$dir\\Data\" -ItemType \"directory\"",
+    "  New-Item \"$dir\\Data\\UserSettings.xml\" -ItemType \"file\"",
     "  Set-Content \"$dir\\Data\\UserSettings.xml\" '<Settings>'",
     "  Set-Content \"$dir\\Data\\UserSettings.xml\" '  <General />'",
     "}"
