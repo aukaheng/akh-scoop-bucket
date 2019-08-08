@@ -10,6 +10,7 @@
       "SUMo"
     ]
   ],
+  "extract_dir": "sumo",
   "pre_install": "New-Item \"$dir\\settings.ini\" -ItemType \"file\"",
   "persist": [
     "settings.ini"
