@@ -9,9 +9,5 @@
       "sizer.exe",
       "Sizer"
     ]
-  ],
-  "post_install": [
-    "$startup=\"$Env:USERPROFILE\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\"",
-    "New-Item -ItemType SymbolicLink -Path \"$startUp\" -Name \"Sizer.lnk\" -Value \"$dir\\sizer.exe\""
   ]
 }
