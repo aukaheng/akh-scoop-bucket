@@ -1,0 +1,17 @@
+{
+  "homepage": "https://www.kcsoftwares.com/?sumo",
+  "version": "5.9.5.425",
+  "hash": "E65BA4070073559457D35E46C03095F1AFCBDA4DD049303D6096674BE2395AD4",
+  "url": "https://www.kcsoftwares.com/files/sumo.zip",
+  "bin": "SUMo.exe",
+  "shortcuts": [
+    [
+      "SUMo.exe",
+      "SUMo"
+    ]
+  ],
+  "pre_install": "New-Item \"$dir\\settings.ini\" -ItemType \"file\"",
+  "persist": [
+    "settings.ini"
+  ]
+}
