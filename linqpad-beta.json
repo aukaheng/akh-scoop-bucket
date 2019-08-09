@@ -1,0 +1,21 @@
+{
+  "version": "5.40.00",
+  "homepage": "https://www.linqpad.net",
+  "description": "The .NET programmer’s playground.",
+  "license": {
+      "identifier": "Freeware",
+      "url": "https://www.linqpad.net/eula.txt"
+  },
+  "url": "http://download.linqpad.net/preview/LINQPad5.zip",
+  "hash": "573A1BC6590511B3752E854C0572A3AC70377002538D22DC1400E84A8DC4AFD7",
+  "bin": [
+    "lprun.exe",
+    "linqpad.exe"
+  ],
+  "shortcuts": [
+    [
+      "linqpad.exe",
+      "LINQPad"
+    ]
+  ]
+}
