@@ -24,7 +24,6 @@
     ]
   ],
   "persist": [
-    "Favorites",
     "minipath.ini",
     "Notepad3.ini"
   ],
