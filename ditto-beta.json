@@ -1,12 +1,12 @@
 {
-    "version": "3.22.48.0",
+    "version": "3.22.50.0",
     "description": "An enhanced clipboard manager.",
     "homepage": "https://ditto-cp.sourceforge.io/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://ditto-cp.sourceforge.io/beta/files/DittoPortable_64bit_3_22_48_0.zip",
-            "hash": "sha1:E5010D281492ED981EC0FF0A07AB54A6C333CF43"
+            "url": "https://ditto-cp.sourceforge.io/beta/files/DittoPortable_64bit_3_22_50_0.zip",
+            "hash": "6AB375B242F0E0C774D8DAE10093E34A710209F504817B9DB3871E79B67B3BD7"
         }
     },
     "extract_dir": "Ditto",
