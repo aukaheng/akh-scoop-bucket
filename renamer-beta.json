@@ -1,0 +1,21 @@
+{
+    "homepage": "https://www.den4b.com/products/renamer",
+    "version": "7.1.0.2",
+    "license": "CC-BY-NC-ND-3.0",
+    "description": "Very powerful and flexible file renaming tool.",
+    "url": "http://www.den4b.com/download/renamer/beta?key=9682804b95a4a9eb63aa638e3c28cc30713c8050f2c21e3f",
+    "hash": "61D9302D1C01FC8F92B7C8BD407F4C0D9CFC575434B2D6A5C20E4358E1EE273D",
+    "bin": "ReNamer.exe",
+    "shortcuts": [
+        [
+            "ReNamer.exe",
+            "ReNamer"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Settings.ini\")) {",
+        "   New-Item -Path \"$dir\\Settings.ini\" -ItemType 'File' | Out-Null",
+        "}"
+    ],
+    "persist": "Settings.ini"
+}
