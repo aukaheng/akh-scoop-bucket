@@ -1,39 +1,29 @@
 {
-    "version": "11133",
-    "description": "Free PDF, eBook reader.",
-    "homepage": "https://www.sumatrapdfreader.org",
-    "license": "GPL-3.0-only,BSD-2-Clause",
-    "architecture": {
-        "64bit": {
-            "url": "https://kjkpub.s3.amazonaws.com/sumatrapdf/prerel/SumatraPDF-prerelease-11133-64.exe",
-            "hash": "6c0a73ca1ff465f1a3743199d6ac3554239108ac6c3490b7fab3ed0e0ee85c79"
-        }
-    },
-    "pre_install": [
-        "$file = 'SumatraPDF-settings.txt'",
-        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
-        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
-        "    $CONT = @('CheckForUpdates = false')",
-        "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
-        "}"
-    ],
-    "bin": [ ["SumatraPDF-prerelease-11133-64.exe", "SumatraPDF"] ],
-    "shortcuts": [
-        [
-            "SumatraPDF-prerelease-11133-64.exe",
-            "SumatraPDF"
-        ]
-    ],
-    "persist": "SumatraPDF-settings.txt",
-    "checkver": {
-        "url": "https://www.sumatrapdfreader.org/news.html",
-        "regex": "([\\d\\.]+)\\s+\\(\\d+"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://kjkpub.s3.amazonaws.com/sumatrapdf/prerel/SumatraPDF-prerelease-$version-64.exe"
-            }
-        }
+  "version": "11133",
+  "description": "Free PDF, eBook reader.",
+  "homepage": "https://www.sumatrapdfreader.org",
+  "license": "GPL-3.0-only,BSD-2-Clause",
+  "architecture": {
+    "64bit": {
+      "url": "https://kjkpub.s3.amazonaws.com/sumatrapdf/prerel/SumatraPDF-prerelease-11133-64.exe",
+      "hash": "6c0a73ca1ff465f1a3743199d6ac3554239108ac6c3490b7fab3ed0e0ee85c79"
     }
+  },
+  "pre_install": [
+    "$file = 'SumatraPDF-settings.txt'",
+    "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+    "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+    "    $CONT = @('CheckForUpdates = false')",
+    "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+    "}"
+  ],
+  "bin": [ ["SumatraPDF-prerelease-11133-64.exe", "SumatraPDF"] ],
+  "shortcuts": [
+    [
+      "SumatraPDF-prerelease-11133-64.exe",
+      "SumatraPDF"
+    ]
+  ],
+  "persist": "SumatraPDF-settings.txt",
+  "notes": "Run the .exe once with the -register-for-pdf flag"
 }
