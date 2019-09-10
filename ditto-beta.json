@@ -1,49 +1,41 @@
 {
-    "version": "3.22.54.0",
-    "description": "An enhanced clipboard manager.",
-    "homepage": "https://ditto-cp.sourceforge.io/",
-    "license": "GPL-3.0-only",
-    "architecture": {
-        "64bit": {
-            "url": "https://ditto-cp.sourceforge.io/beta/files/DittoPortable_64bit_3_22_54_0.zip",
-            "hash": "D60547410888EADBD8AD6B6AA668DD9E94C88C8D9BF2928E1A93C2F8C456E33B"
-        }
-    },
-    "extract_dir": "Ditto",
-    "bin": "Ditto.exe",
-    "shortcuts": [
-        [
-            "Ditto.exe",
-            "Ditto"
-        ]
-    ],
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\Ditto.db\")) {",
-        "    Write-Host 'File Ditto.db does not exists. Creating.' -f Yellow",
-        "    Start-Process -FilePath \"$dir\\Ditto.exe\"",
-        "    while (!(Test-Path \"$dir\\Ditto.db\")) {",
-        "        Start-Sleep -Milliseconds 500",
-        "    }",
-        "    Start-Sleep 1",
-        "    Stop-Process -Name Ditto",
-        "}",
-        "$file = 'Ditto.Settings'",
-        "if (!(Test-Path \"$persist_dir\\$file\")) {",
-        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
-        "    $CONT = @('[Ditto]', 'DBPath3=Ditto.db')",
-        "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
-        "}"
-    ],
-    "persist": [
-        "Ditto.db",
-        "Ditto.Settings"
-    ],
-    "checkver": "var versionDots=\"([\\d.]+)\"",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://ditto-cp.sourceforge.io/beta/files/DittoPortable_64bit_$underscoreVersion.zip"
-            }
-        }
+  "version": "3.22.56.0",
+  "description": "An enhanced clipboard manager.",
+  "homepage": "https://ditto-cp.sourceforge.io/",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://ditto-cp.sourceforge.io/beta/files/DittoPortable_64bit_3_22_56_0.zip",
+      "hash": "1B6B8972014D97875ECCC4DEE3073AF3ED9B3FB79AED9A3EB30DD3BB5A417F9D"
     }
+  },
+  "extract_dir": "Ditto",
+  "bin": "Ditto.exe",
+  "shortcuts": [
+    [
+      "Ditto.exe",
+      "Ditto"
+    ]
+  ],
+  "pre_install": [
+    "if (!(Test-Path \"$persist_dir\\Ditto.db\")) {",
+    "    Write-Host 'File Ditto.db does not exists. Creating.' -f Yellow",
+    "    Start-Process -FilePath \"$dir\\Ditto.exe\"",
+    "    while (!(Test-Path \"$dir\\Ditto.db\")) {",
+    "        Start-Sleep -Milliseconds 500",
+    "    }",
+    "    Start-Sleep 1",
+    "    Stop-Process -Name Ditto",
+    "}",
+    "$file = 'Ditto.Settings'",
+    "if (!(Test-Path \"$persist_dir\\$file\")) {",
+    "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+    "    $CONT = @('[Ditto]', 'DBPath3=Ditto.db')",
+    "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+    "}"
+  ],
+  "persist": [
+    "Ditto.db",
+    "Ditto.Settings"
+  ]
 }
