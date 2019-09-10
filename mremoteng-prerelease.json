@@ -11,5 +11,9 @@
       "mRemoteNG.exe",
       "mRemoteNG"
     ]
+  ],
+  "persist": [
+    "confCons.xml",
+    "mRemoteNG.settings"
   ]
 }
