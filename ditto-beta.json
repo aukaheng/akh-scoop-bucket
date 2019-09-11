@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://ditto-cp.sourceforge.io/beta/files/DittoPortable_64bit_3_22_58_0.zip",
-      "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      "hash": "b0aad62c3ddaefb89cbb00e46eb53c301651621bd07a2e821ab79232eca2a45e"
     }
   },
   "extract_dir": "Ditto",
