@@ -10,5 +10,8 @@
       "Wox.exe",
       "Wox"
     ]
+  ],
+  "persist": [
+    "app-1.2.0\\UserData"
   ]
 }
