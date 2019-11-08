@@ -1,8 +1,8 @@
 {
-  "version": "9.1.5.0",
-  "homepage": "https://www.2brightsparks.com/freeware/index.html",
+  "version": "9.2.8.0",
+  "homepage": "https://www.2brightsparks.com/downloads-beta.html",
   "url": "https://www.2brightsparks.com/assets/software/new/SyncBack_Setup_NI.zip",
-  "hash": "44F34CE14741D50EEB00BF27BFF63C474E61E348972629C96E97CFAD8BCF636B",
+  "hash": "5E8A67787322DB68CAECD47D59509C2B4A8CB7EBC1E48F5D6E72E64C97F08D9B",
   "bin": "SyncBackFree.exe",
   "shortcuts": [
     [
