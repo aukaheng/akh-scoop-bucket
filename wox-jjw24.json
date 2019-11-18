@@ -2,7 +2,7 @@
   "version": "1.26.13",
   "homepage": "https://github.com/jjw24/Wox",
   "url": "https://github.com/jjw24/Wox/releases/download/v1.3.524%2BJJW24.v1.26.13/Wox-1.3.524+JJW24.v1.26.13-Portable.zip",
-  "hash": "C6E6D74C3016F3D080A1C8022F0FB4A3882DBF887A94EEE7D00EEFC207834340",
+  "hash": "C0275AF515F4888C47CBF3DFB20BF1F03A7D2BB81284B71C9D94F2A7A3680911",
   "extract_dir": "Wox",
   "bin": "Wox.exe",
   "shortcuts": [
