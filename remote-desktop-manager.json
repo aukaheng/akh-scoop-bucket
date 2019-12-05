@@ -1,8 +1,8 @@
 {
-  "version": "2019.2.18.0",
+  "version": "2019.2.21.0",
   "homepage": "https://remotedesktopmanager.com/home/downloadfree",
-  "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManagerFree.Bin.2019.2.18.0.zip",
-  "hash": "D613F031F585913D5D55D082B4252258F4D56B0E8B87B5BCCE138AF21C00075A",
+  "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManagerFree.Bin.2019.2.21.0.zip",
+  "hash": "15A952D08DE7B403385FF6D89224A189842E356D34DE516DBEB877D9D8159F16",
   "bin": "RemoteDesktopManagerFree.exe",
   "shortcuts": [
     [
