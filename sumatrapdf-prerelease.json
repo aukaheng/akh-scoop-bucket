@@ -15,9 +15,7 @@
     "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
     "    $CONT = @('CheckForUpdates = false')",
     "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
-    "}"
-  ],
-  "post_install": [
+    "}",
     "Rename-Item -Path \"$dir\\SumatraPDF-prerelease-$version-64.exe\" -NewName \"SumatraPDF-prerelease-64.exe\""
   ],
   "bin": [
