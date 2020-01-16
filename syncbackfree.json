@@ -1,0 +1,13 @@
+{
+  "version": "9.2.30.0",
+  "homepage": "https://www.2brightsparks.com/downloads-beta.html",
+  "url": "https://www.2brightsparks.com/assets/software/SyncBack_Setup_NI.zip",
+  "hash": "300B8DC619C0ABD142BCB09D01AB16EE48FD8368907D60E9FEEE741593114330",
+  "bin": "SyncBackFree.exe",
+  "shortcuts": [
+    [
+      "SyncBackFree.exe",
+      "SyncBackFree"
+    ]
+  ]
+}
