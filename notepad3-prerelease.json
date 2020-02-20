@@ -1,13 +1,11 @@
 {
-  "version": "5.19.815.2595",
-  "description": "Notepad like text editor based on the Scintilla source code.",
+  "version": "5.20.218.2",
   "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
-  "license": "BSD-3-Clause",
   "url": [
-    "https://www.rizonesoft.com/shkarko/Notepad3/Notepad3_5.19.815.2595.zip"
+    "https://www.rizonesoft.com/shkarko/Notepad3/Notepad3_5.20.218.2.zip"
   ],
   "hash": [
-    "F837F7F054F9B681DD9D79D61661C04D3F2ED580B959A0AE3606CC6800B37958"
+    "fad8fe5e0cde887eda5e244c4b2eed2d64a7cd36a38718948593f0d2a30ee7e1"
   ],
   "bin": [
     "Notepad3.exe",
