@@ -3,8 +3,8 @@
   "description": "An open source differencing and merging tool for Windows that compares both folders and files, presenting differences in a visual text format that is easy to understand and handle.",
   "homepage": "https://winmergejp.bitbucket.io",
 
-  "url": "https://osdn.net/projects/winmerge-jp/downloads/72460/winmerge-2.16.6-jp-1-x64-exe.zip",
-  "hash": "c670206294e6ca8715f93076c53946a847384a26fb3eb022738aa2d986993114",
+  "url": "https://osdn.mirror.liquidtelecom.com/winmerge-jp/72460/winmerge-2.16.6-jp-1-x64-exe.zip",
+  "hash": "8449d49460219309caf81b9531d4814a4d553a28159bd08f4c9796ed432c80f1",
   
   "extract_dir": "WinMerge",
   "bin": "WinMergeU.exe",
