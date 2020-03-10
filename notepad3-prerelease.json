@@ -1,11 +1,11 @@
 {
-  "version": "5.20.218.2",
+  "version": "5.20.305.2",
   "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
   "url": [
-    "https://www.rizonesoft.com/shkarko/Notepad3/Notepad3_5.20.218.2.zip"
+    "https://www.rizonesoft.com/shkarko/Notepad3/Notepad3_5.20.305.2.zip"
   ],
   "hash": [
-    "fad8fe5e0cde887eda5e244c4b2eed2d64a7cd36a38718948593f0d2a30ee7e1"
+    "6505E0D948DEFA616476FD487DCE07EE7AD8334055F0DB3B5C068EB658C0522D"
   ],
   "bin": [
     "Notepad3.exe",
