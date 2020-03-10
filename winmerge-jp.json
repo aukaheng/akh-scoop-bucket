@@ -1,0 +1,16 @@
+{
+  "version": "2.16.6-jp-1",
+  "homepage": "https://winmergejp.bitbucket.io",
+
+  "url": "https://osdn.mirror.liquidtelecom.com/winmerge-jp/72460/winmerge-2.16.6-jp-1-x64-exe.zip",
+  "hash": "8449D49460219309CAF81B9531D4814A4D553A28159BD08F4C9796ED432C80F1",
+
+  "extract_dir": "WinMerge",
+  "bin": "WinMergeU.exe",
+  "shortcuts": [
+    [
+      "WinMergeU.exe",
+      "WinMerge"
+    ]
+  ]
+}
