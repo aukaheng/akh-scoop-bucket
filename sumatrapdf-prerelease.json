@@ -5,8 +5,8 @@
   "license": "GPL-3.0-only,BSD-2-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/prerel/SumatraPDF-prerelease-12250-64.exe",
-      "hash": "A979A227F2C84C1DC013E9D5D876EA6B299158BF39E510FCB78E64127D61E291"
+      "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/prerel/SumatraPDF-prerelease-12280-64.exe",
+      "hash": "457208B7F39072FCF116DBAC8643915DDA1B0723B8CF196DD781E9433259924E"
     }
   },
   "pre_install": [
