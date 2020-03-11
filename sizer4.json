@@ -1,8 +1,8 @@
 {
   "homepage": "http://www.brianapps.net/sizer4/",
-  "version": "570",
-  "hash": "5B8B0483EF021A8B22D9B050EC21B2ABB47F82EBAEE663181DD8CCCEE784B349",
-  "url": "http://www.brianapps.net/sizer4/sizer4_dev570.zip",
+  "version": "622",
+  "hash": "34F40BD39881D6CA924D99DB499BEDA8C1F01AFD6264E28396D185B77AFF7370",
+  "url": "http://www.brianapps.net/sizer4/sizer4_dev622.zip",
   "bin": "sizer.exe",
   "shortcuts": [
     [
