@@ -1,10 +1,8 @@
 {
   "homepage": "https://www.den4b.com/products/renamer",
-  "version": "7.1.0.4",
-  "license": "CC-BY-NC-ND-3.0",
-  "description": "Very powerful and flexible file renaming tool.",
+  "version": "7.1.0.5",
   "url": "http://www.den4b.com/download/renamer/beta?token=scoop#/dl.zip",
-  "hash": "4253F4DE035162EB09C2F66F32B5DA9D308FFCF7D5D452F238A3CC1B14D04765",
+  "hash": "A1100D031C87DB0720D49E42FEC45C0DD82FD2F5714F079179AB7F96EA932AF1",
   "bin": "ReNamer.exe",
   "shortcuts": [
     [
