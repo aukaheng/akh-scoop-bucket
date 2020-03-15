@@ -1,8 +1,8 @@
 {
-  "version": "1.44.21",
+  "version": "1.46.22",
   "homepage": "https://github.com/jjw24/Wox",
-  "url": "https://github.com/jjw24/Wox/releases/download/JJW24-v1.44.21/Wox-JJW24-1.44.21-Portable.zip",
-  "hash": "E77EE245731F529CD13A2964D56361E5877934C09A67AAE2BC41211F5B89DC6D",
+  "url": "https://github.com/jjw24/Wox/releases/download/JJW24-v1.46.22/Wox-JJW24-1.46.22-Portable.zip",
+  "hash": "3d64918fabc243cb38f899b9a1d2d58a49d5dffe5fae49df2b7f574561a7fa4e",
   "extract_dir": "Wox",
   "bin": "Wox.exe",
   "shortcuts": [
@@ -12,6 +12,6 @@
     ]
   ],
   "persist": [
-    "app-1.44.21\\UserData"
+    "UserData"
   ]
 }
