@@ -15,7 +15,7 @@
     "    $CONT = @('CheckForUpdates = false')",
     "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
     "}",
-    "Rename-Item -Path \"$dir\\SumatraPDF-prerelease-$version-64.exe\" -NewName \"SumatraPDF-prerelease-64.exe\""
+    "Rename-Item -Path \"$dir\\SumatraPDF-prerel-$version-64.exe\" -NewName \"SumatraPDF-prerelease-64.exe\""
   ],
   "bin": [
     [
