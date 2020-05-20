@@ -1,8 +1,8 @@
 {
-  "version": "1.3.1073",
+  "version": "1.4.1115",
   "homepage": "https://github.com/Wox-launcher/Wox",
-  "url": "https://github.com/Wox-launcher/Wox/releases/download/v1.3.1073/Wox-1.3.1073.zip",
-  "hash": "566717CD183C067352C499CB9EE623C199EB9AABBD4DC57A06C93480B07F7F82",
+  "url": "https://github.com/Wox-launcher/Wox/releases/download/v1.4.1115/Wox-1.4.1115.zip",
+  "hash": "DDBCE8750F24F2DA8F60A76B2EBDF2A87320FE583EE7AD49DA3164702C4661C4",
   "bin": "Wox.exe",
   "shortcuts": [
     [
