@@ -10,5 +10,8 @@
       "Flow.Launcher.exe",
       "Flow Launcher"
     ]
+  ],
+  "persist": [
+    "UserData"
   ]
 }
