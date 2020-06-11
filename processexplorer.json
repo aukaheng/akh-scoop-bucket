@@ -1,7 +1,7 @@
 {
   "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
-  "version": "16.31",
-  "hash": "5818F8DF2AFDDE87163F26900DC4086998BD37792C040654BC61C44EBAC38626",
+  "version": "16.32",
+  "hash": "D6B555F233EC477FEF392290182FF99F2AE3ABE0D9A77C2F739BC8AFAEA51941",
   "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
   "bin": "procexp64.exe",
   "shortcuts": [
