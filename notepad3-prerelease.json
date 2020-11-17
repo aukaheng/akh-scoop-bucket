@@ -11,11 +11,11 @@
   "shortcuts": [
     [
       "Notepad3.exe",
-      "Notepad3"
+      "Notepad3P"
     ],
     [
       "minipath.exe",
-      "minipath"
+      "minipathP"
     ]
   ],
   "persist": [
