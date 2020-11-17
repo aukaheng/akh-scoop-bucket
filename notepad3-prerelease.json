@@ -2,7 +2,7 @@
   "version": "5.20.1116.1",
   "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
   "url": "https://botein.workupload.com/download/WfST8pEgFTU#/dl.7z",
-  "hash": "",
+  "hash": "92C80C2C213ECAC287DE4ACCDA09392957C3FBA8A0959843EABE774966BC0F3C",
   "extract_dir": "App\\Notepad3\\x64",
   "bin": [
     "Notepad3.exe",
@@ -11,11 +11,11 @@
   "shortcuts": [
     [
       "Notepad3.exe",
-      "Notepad3P"
+      "Notepad3"
     ],
     [
       "minipath.exe",
-      "minipathP"
+      "minipath"
     ]
   ],
   "persist": [
