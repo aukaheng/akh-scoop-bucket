@@ -2,7 +2,7 @@
   "version": "2.16.8-jp-5",
   "homepage": "https://winmergejp.bitbucket.io",
 
-  "url": "https://osdn.net/frs/redir.php?m=dotsrc&f=winmerge-jp%2F73849%2Fwinmerge-2.16.8-jp-5-x64-exe.zip",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/osdn/winmerge-jp/73849/winmerge-2.16.8-jp-5-x64-exe.zip",
   "hash": "276A58A9B4B9F331C35E9511EF75CFB0897083432CDB833876788008575143FA",
 
   "extract_dir": "WinMerge",
