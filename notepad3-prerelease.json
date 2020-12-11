@@ -1,8 +1,8 @@
 {
-  "version": "5.20.915.1",
+  "version": "5.20.1210.1",
   "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
-  "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.20.915.1/Notepad3_5.20.915.1.zip",
-  "hash": "6F2349C244683AE756DB5B22792DA374FB8CD0C13AE9A5A28FDC403CBA93E907",
+  "url": "https://caph.workupload.com/download/2dNBxSxSg3t#/dl.7z",
+  "hash": "96268fd798dc88bf73f0fe88d930bf4ede948e2e26adb0b8a7951dc6929d64df",
   "extract_dir": "App\\Notepad3\\x64",
   "bin": [
     "Notepad3.exe",
