@@ -1,8 +1,8 @@
 {
   "version": "5.20.1211.1",
   "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
-  "url": "https://workupload.com/file/HnLVSPm9Zzt#/dl.7z",
-  "hash": "",
+  "url": "https://botein.workupload.com/download/HnLVSPm9Zzt#/dl.7z",
+  "hash": "5462D477F6650021868083A4568C20371860C5626AFB1917318EDF2EA2059BE7",
   "extract_dir": "App\\Notepad3\\x64",
   "bin": [
     "Notepad3.exe",
