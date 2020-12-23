@@ -1,11 +1,11 @@
 {
-  "version": "13217",
+  "version": "13218",
   "description": "Free PDF, eBook reader.",
   "homepage": "https://www.sumatrapdfreader.org/prerelease.html",
   "architecture": {
     "64bit": {
-      "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/daily/SumatraPDF-prerel-13217-64.zip",
-      "hash": "50E375126C509A845076DC08A778C5D2DEBE80BC1BF8779D6B0EE2764919216E"
+      "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/daily/SumatraPDF-prerel-13218-64.zip",
+      "hash": "47E5D8EC5D973DD326EDC9E0356AC9E94F475220B155B96ABB4FA420F02415DE"
     }
   },
   "pre_install": [
