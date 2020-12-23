@@ -1,7 +1,7 @@
 {
   "version": "5.20.1222.1",
   "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
-  "url": "notepad.paf.7z",
+  "url": "http://localhost/notepad.paf.7z",
   "hash": "A52BC79A625B2B3E3D872D0F8EE9BBE048425C77584A4C3EFE0F92E25E1FE1EC",
   "extract_dir": "App\\Notepad3\\x64",
   "bin": [
