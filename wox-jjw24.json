@@ -1,8 +1,8 @@
 {
-  "version": "1.52.24",
+  "version": "1.53.24",
   "homepage": "https://github.com/jjw24/Wox",
-  "url": "https://github.com/jjw24/Wox/releases/download/JJW24-v1.52.24/Wox-JJW24-1.52.24-full.nupkg#/dl.7z",
-  "hash": "D0330FB03972C8AAF30CE6EAB30A149BD9368D066D2E5F28F6B5D69A8C89995E",
+  "url": "https://github.com/jjw24/Wox/releases/download/JJW24-v1.53.24/Wox-JJW24-1.53.24-full.nupkg#/dl.7z",
+  "hash": "FA3E68356FC3ED890348DEC5DDF7A2261AEB464AFCD1E9E81FBCF705471EDFD2",
   "extract_dir": "lib\\net45",
   "bin": "Wox.exe",
   "shortcuts": [
