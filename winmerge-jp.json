@@ -1,9 +1,9 @@
 {
-  "version": "2.16.8-jp-5",
+  "version": "2.16.8-jp-11",
   "homepage": "https://winmergejp.bitbucket.io",
 
-  "url": "https://mirrors.tuna.tsinghua.edu.cn/osdn/winmerge-jp/73849/winmerge-2.16.8-jp-5-x64-exe.zip",
-  "hash": "276A58A9B4B9F331C35E9511EF75CFB0897083432CDB833876788008575143FA",
+  "url": "https://mirrors.xtom.com.hk/osdn//winmerge-jp/74150/winmerge-2.16.8-jp-11-x64-exe.zip",
+  "hash": "43B039740A1B6DED44E002B8EC6FA1961A38FAD550CEA08280F0FAABAD864B53",
 
   "extract_dir": "WinMerge",
   "bin": "WinMergeU.exe",
