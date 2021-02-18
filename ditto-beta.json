@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://appveyorcidatav2.blob.core.windows.net/scottbrogden-91860/ditto/3-24-182-0/9mevhrkj4mxbdnt7/DittoSetup/Output/DittoPortable_64bit_3_24_182_0.zip",
+      "url": "https://ci.appveyor.com/api/buildjobs/9mevhrkj4mxbdnt7/artifacts/DittoSetup%2FOutput%2FDittoPortable_64bit_3_24_182_0.zip",
       "hash": "CD719FBCC9F6358650577EAD919DFFBA85DF9D32A4013D2E4F0CF9F6D2E9711C"
     }
   },
