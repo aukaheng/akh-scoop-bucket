@@ -1,8 +1,8 @@
 {
-  "version": "1.7.1",
+  "version": "1.7.2",
   "homepage": "https://github.com/jjw24/Wox",
-  "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.7.1/FlowLauncher-1.7.1-full.nupkg#/dl.7z",
-  "hash": "B5F5C86A65B30FCD1A94F0631AB6FCBCD1AAB38B4FDADA7CD767E59C8D331111",
+  "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.7.2/FlowLauncher-1.7.2-full.nupkg#/dl.7z",
+  "hash": "4F48B932847EAD80DBACA5B9C007B986986BC721FCBF71DFDF861BEBB14FEE84",
   "extract_dir": "lib\\netcoreapp3.1",
   "bin": "Flow.Launcher.exe",
   "shortcuts": [
