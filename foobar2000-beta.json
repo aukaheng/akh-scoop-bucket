@@ -1,0 +1,26 @@
+{
+    "version": "1.6.6.2",
+    "description": "An advanced freeware audio player for the Windows platform.",
+    "homepage": "https://www.foobar2000.org/",
+    "notes": [
+        "WARNING: foobar2000 package is reverting back to non-portable installation.",
+        "If you still want portable version, use foobar2000-portable instead.",
+        "If you want to migrate persisted data to portable version",
+        "please rename $persist_dir to \"foobar2000-portable\"."
+    ],
+    "url": "https://www.foobar2000.org/files/foobar2000_v1.6.6_beta_2.exe#/dl.7z",
+    "hash": "",
+    "bin": "foobar2000.exe",
+    "shortcuts": [
+        [
+            "foobar2000.exe",
+            "Foobar2000"
+        ]
+    ],
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse",
+            "New-Item \"$dir\\user_profiles_enabled\" -Force | Out-Null"
+        ]
+    }
+}
