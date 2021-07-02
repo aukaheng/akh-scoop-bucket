@@ -2,7 +2,7 @@
   "version": "2.10.24-3",
   "homepage": "https://github.com/nickbudi/scoop-bucket",
   "url": "https://sourceforge.net/projects/portableapps/files/GIMP%20Portable/GIMPPortable_2.10.24-3.paf.exe/download#/dl.7z",
-  "hash": "714fcd7e39f8e6a7cd524e0a3f649d92848b155c",
+  "hash": "5fca04471ca31f2a486d43d91e826a1671dd8f0bfc09e57f836bf9b5d2847ea5",
   "bin": [
     [
       "GIMPPortable.exe",
