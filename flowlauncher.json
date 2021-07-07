@@ -2,7 +2,7 @@
   "version": "1.7.2.2061",
   "homepage": "https://github.com/jjw24/Wox",
   "url": "https://ci.appveyor.com/api/buildjobs/hww0rbc7i0plsvuk/artifacts/Output%2FPackages%2FFlowLauncher-1.7.2-full.nupkg#/dl.7z",
-  "hash": "",
+  "hash": "8655681222AD504CE9D03D3019CF5E97A39ACFA5FAC77B4E9E73AACFE63B9BB4",
   "extract_dir": "lib\\net5.0-windows",
   "bin": "Flow.Launcher.exe",
   "shortcuts": [
