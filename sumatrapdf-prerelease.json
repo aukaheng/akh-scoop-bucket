@@ -1,11 +1,11 @@
 {
-  "version": "13996",
+  "version": "14025",
   "description": "Free PDF, eBook reader.",
   "homepage": "https://www.sumatrapdfreader.org/prerelease.html",
   "architecture": {
     "64bit": {
-      "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/prerel/SumatraPDF-prerel-13996-64.exe",
-      "hash": "30E491906333B61643A4798116BD94873FD576A64959326D845BD191A212EFB2"
+      "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/prerel/14025/SumatraPDF-prerel-64.exe",
+      "hash": "CBED83C3FE0DF2C284937469A3BFB8B2B3F7B5AE6E00BB96CD10BA2DDB92C356"
     }
   },
   "pre_install": [
@@ -14,18 +14,17 @@
     "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
     "    $CONT = @('CheckForUpdates = false')",
     "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
-    "}",
-    "Rename-Item -Path \"$dir\\SumatraPDF-prerel-$version-64.exe\" -NewName \"SumatraPDF-prerelease-64.exe\""
+    "}"
   ],
   "bin": [
     [
-      "SumatraPDF-prerelease-64.exe",
+      "SumatraPDF-prerel-64.exe",
       "SumatraPDF"
     ]
   ],
   "shortcuts": [
     [
-      "SumatraPDF-prerelease-64.exe",
+      "SumatraPDF-prerel-64.exe",
       "SumatraPDF"
     ]
   ],
