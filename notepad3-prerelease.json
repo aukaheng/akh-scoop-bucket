@@ -1,8 +1,8 @@
 {
-  "version": "5.21.227.1",
+  "version": "5.21.818.1",
   "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
-  "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.21.227.1/Notepad3_5.21.227.1.zip",
-  "hash": "D8A788BDEC2F60A70B9B56CE26C21E9B3DC5E5B04B0A172CC1305A06CD9477B1",
+  "url": "https://github.com/rizonesoft/Notepad3/releases/download/RC_5.21.818.1/Notepad3_5.21.818.1_rc.7z",
+  "hash": "46CE4BD81343DBB45EA577BE88EE1E86ACD5D24E361A9914462CA9E6CE71B1E6",
   "bin": [
     "Notepad3.exe",
     "minipath.exe"
@@ -24,12 +24,12 @@
   "architecture": {
     "64bit": {
       "installer": {
-        "script": "Expand-ZipArchive \"$dir\\Notepad3_${version}_x64.zip\""
+        "script": "Expand-ZipArchive \"$dir\\Notepad3_${version}_rc_x64.7z\""
         
       }
     }
   },
   "post_install": [
-    "Remove-Item \"$dir\\Notepad3_${version}_x*.zip\""
+    "Remove-Item \"$dir\\Notepad3_${version}_rc_x*.7z\""
   ]
 }
