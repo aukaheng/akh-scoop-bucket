@@ -24,7 +24,7 @@
   "architecture": {
     "64bit": {
       "installer": {
-        "script": "7z.exe x \"$dir\\Notepad3_${version}_rc_x64.7z\" -y"
+        "script": "7z.exe x \"$dir\\Notepad3_${version}_rc_x64.7z\" -o\"$dir\" -y"
       }
     }
   },
