@@ -1,0 +1,18 @@
+{
+    "version": "2.16.15",
+    "homepage": "https://winmerge.org",
+    "architecture": {
+        "64bit": {
+            "url": "https://jaist.dl.sourceforge.net/project/winmerge/beta/2.16.15/winmerge-2.16.15-x64-exe.zip",
+            "hash": ""
+        }
+    },
+    "extract_dir": "WinMerge",
+    "bin": "WinMergeU.exe",
+    "shortcuts": [
+        [
+            "WinMergeU.exe",
+            "WinMerge"
+        ]
+    ]
+}
