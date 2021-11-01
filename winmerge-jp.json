@@ -1,9 +1,9 @@
 {
-  "version": "2.16.14-jp-6",
+  "version": "2.16.16-jp-2",
   "homepage": "https://winmergejp.bitbucket.io",
 
-  "url": "https://ftp.halifax.rwth-aachen.de/osdn/winmerge-jp/76093/winmerge-2.16.14-jp-6-x64-exe.zip",
-  "hash": "EEC1041DC90BD441FA2138F881EC0D3FB44C8A7206D88D93BDAA5B64D037A081",
+  "url": "https://ftp.halifax.rwth-aachen.de/osdn/winmerge-jp/76234/winmerge-2.16.16-jp-2-x64-exe.zip",
+  "hash": "5499773199A9262E0918A7C241D3DACEADEA1C9C2F727B5F478C9D6DB4ED6265",
 
   "extract_dir": "WinMerge",
   "bin": "WinMergeU.exe",
