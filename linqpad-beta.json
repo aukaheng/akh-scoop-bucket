@@ -1,9 +1,9 @@
 {
-  "version": "7.2.4",
+  "version": "7.2.5",
   "homepage": "https://www.linqpad.net",
   "description": "The .NET programmer’s playground.",
-  "url": "https://linqpad.azureedge.net/preview/LINQPad7-Beta.zip?cache=7.2.4.730006",
-  "hash": "D9DF0E4C66CFA3FBAA23EDA253B18D5A34451557B6AF77E923FA4F2A39A76EF2",
+  "url": "https://linqpad.azureedge.net/preview/LINQPad7-Beta.zip?cache=7.2.5.5954259",
+  "hash": "17CCD77674A30A329597D730412D7CF010E9DE7C79105AF1FE51010970AF6C70",
   "bin": [
     "LPRun7-x64.exe",
     "LINQPad7-x64.exe"
