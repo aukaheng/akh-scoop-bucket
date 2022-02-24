@@ -4,8 +4,8 @@
   "homepage": "https://www.sumatrapdfreader.org/prerelease.html",
   "architecture": {
     "64bit": {
-      "url": "https://files.sumatrapdfreader.org/file/kjk-files/software/sumatrapdf/prerel/14273/SumatraPDF-prerel-64.exe",
-      "hash": "9C0300D3E46E599EDDD977C99C10DEDD2594699850A0DDAD7BE814DE7B5F08A6"
+      "url": "https://files.sumatrapdfreader.org/file/kjk-files/software/sumatrapdf/prerel/14276/SumatraPDF-prerel-64.exe",
+      "hash": "DE573192928D44688F89B627589528E19EA027203802D3931B8D092594F1636C"
     }
   },
   "pre_install": [
