@@ -1,18 +1,18 @@
 {
-    "version": "2.16.18",
-    "homepage": "https://winmerge.org",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.18/winmerge-2.16.18-x64-exe.zip",
-            "hash": "BD8C75062493CFCE6CD73E16FD0C5BA55B18A50EE6CFEB17CCE3C142ECBFA05F"
-        }
-    },
-    "extract_dir": "WinMerge",
-    "bin": "WinMergeU.exe",
-    "shortcuts": [
-        [
-            "WinMergeU.exe",
-            "WinMerge"
-        ]
+  "version": "2.16.19",
+  "homepage": "https://winmerge.org",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.19/winmerge-2.16.19-x64-exe.zip",
+      "hash": "5CDB8C7EE2B6A1753C52EAC92F5BE3F7DB45D06B4C074A36B361459009954C44"
+    }
+  },
+  "extract_dir": "WinMerge",
+  "bin": "WinMergeU.exe",
+  "shortcuts": [
+    [
+      "WinMergeU.exe",
+      "WinMerge"
     ]
+  ]
 }
