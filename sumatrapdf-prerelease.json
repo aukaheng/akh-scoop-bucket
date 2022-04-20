@@ -1,11 +1,11 @@
 {
-  "version": "14326",
+  "version": "14471",
   "description": "Free PDF, eBook reader.",
   "homepage": "https://www.sumatrapdfreader.org/prerelease.html",
   "architecture": {
     "64bit": {
-      "url": "https://files.sumatrapdfreader.org/file/kjk-files/software/sumatrapdf/prerel/14326/SumatraPDF-prerel-64.exe",
-      "hash": "6876D39A6E076C7924F37FCE0FBF21D4256EA4CB6B4CF9732144CF56864000BB"
+      "url": "https://files.sumatrapdfreader.org/file/kjk-files/software/sumatrapdf/prerel/14471/SumatraPDF-prerel-64.exe",
+      "hash": "1AF8D420C8E2E928067A0BAE16AF21CB5B70427C776F2C717A4A7AF8DA1EE90B"
     }
   },
   "pre_install": [
