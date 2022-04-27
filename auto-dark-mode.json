@@ -1,0 +1,15 @@
+{
+  "version": "10.1.0.10",
+  "homepage": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode",
+  "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.1.0.10/AutoDarkModeX_10.1.0.10.zip",
+  "hash": "FA78D748E46FE81E6E3F19A5C54DA424A6142F3E8B520684B41774AF2E1B93F9",
+  "bin": [
+    "AutoDarkModeApp.exe"
+  ],
+  "shortcuts": [
+    [
+      "AutoDarkModeApp.exe",
+      "AutoDarkMode"
+    ]
+  ]
+}
