@@ -5,7 +5,7 @@
   "architecture": {
     "64bit": {
       "url": "https://files.sumatrapdfreader.org/file/kjk-files/software/sumatrapdf/prerel/15174/SumatraPDF-prerel-64.exe",
-      "hash": "A28EACECA127BD8B184403F04A88462E5EFAB770F633ECD8195B480D06B5FD15"
+      "hash": "533ff127858b062c2b667e5abad830a91aa3e43f8e5164f0874e0d66d57992e2"
     }
   },
   "pre_install": [
