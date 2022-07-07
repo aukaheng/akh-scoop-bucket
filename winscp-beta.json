@@ -1,8 +1,8 @@
 {
   "homepage": "https://sourceforge.net/projects/winscp/files/WinSCP/",
   "version": "5.21",
-  "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/5.21/WinSCP-5.21-Portable.zip",
-  "hash": "941e632389c1d185d5cfbd16efdb50c66be0ad7078a2967d99e80c4accbdd82b",
+  "url": "https://winscp.net/download/WinSCP-5.21.1-Portable.zip",
+  "hash": "3E4CA8B87EF1E5E8CCBDEDAF7E23CBD2886D3DC0563D259E3DDD86F023BF2053",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\winscp.ini\")) {",
     "    @(",
