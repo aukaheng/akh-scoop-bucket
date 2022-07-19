@@ -1,10 +1,10 @@
 {
-  "version": "2.16.20",
+  "version": "2.16.21",
   "homepage": "https://winmerge.org",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.20/winmerge-2.16.20-x64-exe.zip",
-      "hash": "39A70E3634995C89FB67A9FAB02BF7176ADD8AD196D0B4FBEA6A46CC524F1F43"
+      "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.21/winmerge-2.16.21-x64-exe.zip",
+      "hash": "068D8895C422B1063813A66074FF52BE1F1E8464F3DCA51BA5D8B66F36C8357A"
     }
   },
   "extract_dir": "WinMerge",
