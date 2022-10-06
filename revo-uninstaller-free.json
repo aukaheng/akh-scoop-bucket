@@ -1,8 +1,8 @@
 {
-  "version": "2.3.9",
+  "version": "2.4.1",
   "homepage": "https://www.revouninstaller.com/products/revo-uninstaller-free/",
   "url": "https://download.revouninstaller.com/download/RevoUninstaller_Portable.zip",
-  "hash": "7E0210D418FBD9D0940A3E271812D141EC75E1FB78C855D3180112F71EAE311C",
+  "hash": "F4699149DC3B97E20A6BF58B5ECB032D24676E7FAC48BE45243FBA3C2989F114",
   "extract_dir": "RevoUninstaller_Portable",
   "bin": [
     "RevoUPort.exe"
