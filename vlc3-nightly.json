@@ -1,0 +1,28 @@
+{
+    "version": "20221101",
+    "homepage": "https://artifacts.videolan.org/vlc-3.0/nightly-win64/",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://artifacts.videolan.org/vlc-3.0/nightly-win64/20221101-0226/vlc-3.0.18-win64-a0eecd9e.7z",
+            "hash": "A4FD74046D939361421D53220F5A94D584E7F00934B5E2EB7062D94E0C5CCCDD"
+        }
+    },
+    "extract_dir": "vlc-3.0.18",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\portable\") -and (Test-Path \"$env:APPDATA\\vlc\")) {",
+        "    info \"Copying old '$env:APPDATA\\vlc' to '$persist_dir\\portable'\"",
+        "    ensure \"$dir\\portable\\vlc\" | Out-Null",
+        "    Copy-Item \"$env:APPDATA\\vlc\\*\" \"$dir\\portable\" -Recurse -Force",
+        "    Move-Item \"$dir\\portable\\vlc-qt-interface.ini\" \"$dir\\portable\\vlc\"",
+        "}"
+    ],
+    "bin": "vlc.exe",
+    "shortcuts": [
+        [
+            "vlc.exe",
+            "VLC media player Nightly"
+        ]
+    ],
+    "persist": "portable"
+}
