@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "https://artifacts.videolan.org/vlc-3.0/nightly-win64/20221104-0221/vlc-3.0.18-win64-47bd9018.7z",
-            "hash": "ac9806f61ba184efd55511ae0dc4eda044ba1e6422dfbdddb75051081ce1bd827e8a9e7edd667399575d2612cc92ff1b19ed5ef497963e594ebb9a101020f169"
+            "hash": "a897c11362a861bc0f31441a44bccf0b698085fc29b6e0570b54047576a76085"
         }
     },
     "extract_dir": "vlc-3.0.18",
