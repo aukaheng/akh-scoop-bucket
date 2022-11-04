@@ -1,11 +1,11 @@
 {
-    "version": "20221101",
+    "version": "20221104",
     "homepage": "https://artifacts.videolan.org/vlc-3.0/nightly-win64/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://artifacts.videolan.org/vlc-3.0/nightly-win64/20221101-0226/vlc-3.0.18-win64-a0eecd9e.7z",
-            "hash": "A4FD74046D939361421D53220F5A94D584E7F00934B5E2EB7062D94E0C5CCCDD"
+            "url": "https://artifacts.videolan.org/vlc-3.0/nightly-win64/20221104-0221/vlc-3.0.18-win64-47bd9018.7z",
+            "hash": "ac9806f61ba184efd55511ae0dc4eda044ba1e6422dfbdddb75051081ce1bd827e8a9e7edd667399575d2612cc92ff1b19ed5ef497963e594ebb9a101020f169"
         }
     },
     "extract_dir": "vlc-3.0.18",
@@ -21,7 +21,7 @@
     "shortcuts": [
         [
             "vlc.exe",
-            "VLC media player Nightly"
+            "VLC media player"
         ]
     ],
     "persist": "portable"
