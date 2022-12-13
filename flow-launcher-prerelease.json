@@ -12,6 +12,7 @@
     ]
   ],
   "persist": [
-    "app-1.10.0\\UserData"
+    "app-1.10.0\\UserData",
+    "UserData"
   ]
 }
