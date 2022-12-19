@@ -1,8 +1,8 @@
 {
-  "version": "1.10.0.6335",
+  "version": "1.10.1.6389",
   "homepage": "https://github.com/Flow-Launcher",
-  "url": "https://github.com/Flow-Launcher/Prereleases/releases/download/v1.10.0.6335/Flow-Launcher-Portable.zip",
-  "hash": "88683FCF23A6DF889BE2F8B966B058EC26B522EC7FFFD81C0AE8891CAB510D91",
+  "url": "https://github.com/Flow-Launcher/Prereleases/releases/download/v1.10.1.6389/Flow-Launcher-Portable.zip",
+  "hash": "18C26BB1C6073FC55674B81038736A40565C6526F71E4B21DA74B49CA417CFEF",
   "extract_dir": "FlowLauncher",
   "bin": "Flow.Launcher.exe",
   "shortcuts": [
