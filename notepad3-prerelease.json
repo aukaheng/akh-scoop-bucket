@@ -1,8 +1,8 @@
 {
-  "version": "5.22.1213.1-rc.2",
+  "version": "6.23.118.1",
   "homepage": "https://www.rizonesoft.com/downloads/notepad3/",
-  "url": "https://github.com/rizonesoft/Notepad3/releases/download/RC2_5.22.1213.1/Notepad3_5.22.1213.1_rc2_x64.zip",
-  "hash": "5F719500FBE232061759FE2CABB1976DA84229AC8B93B5F3FC8D9705D6EFB5A8",
+  "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.118.1/Notepad3_6.23.118.1_x64_Portable.zip",
+  "hash": "D1396DF5AD3CAE8C017F7EB4EA9C6965B38FC4AB3528125D5D7E43D09988CE51",
   "bin": [
     "Notepad3.exe",
     "minipath.exe"
