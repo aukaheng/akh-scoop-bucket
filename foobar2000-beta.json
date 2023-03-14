@@ -1,15 +1,9 @@
 {
-    "version": "1.6.6.2",
+    "version": "2.0-beta.26",
     "description": "An advanced freeware audio player for the Windows platform.",
     "homepage": "https://www.foobar2000.org/",
-    "notes": [
-        "WARNING: foobar2000 package is reverting back to non-portable installation.",
-        "If you still want portable version, use foobar2000-portable instead.",
-        "If you want to migrate persisted data to portable version",
-        "please rename $persist_dir to \"foobar2000-portable\"."
-    ],
-    "url": "https://www.foobar2000.org/files/foobar2000_v1.6.6_beta_2.exe#/dl.7z",
-    "hash": "",
+    "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v2.0_beta_26.exe#/dl.7z",
+    "hash": "0FE908975612B716F52F85C8F79B346063A1D2159D5FAD1CB8BB86E4ECFC8CDA",
     "bin": "foobar2000.exe",
     "shortcuts": [
         [
@@ -20,7 +14,25 @@
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse",
-            "New-Item \"$dir\\user_profiles_enabled\" -Force | Out-Null"
+            "New-Item \"$dir\\portable_mode_enabled\" -Force | Out-Null",
+            "$EncodersDir = $(appdir foobar2000-encoders $global)",
+            "if (Test-Path \"$EncodersDir\") {",
+            "    New-Item \"$dir\\encoders\" -ItemType Junction -Target \"$EncodersDir\\current\" | Out-Null",
+            "}"
         ]
-    }
+    },
+    "post_install": [
+        "if (!(Test-Path \"$persist_dir\\profile\\*\")) {",
+        "    Get-ChildItem -Path \"$persist_dir\" -Exclude \"profile\" | Move-Item -Destination \"$persist_dir\\profile\" -Force",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\profile\\*\") -and (Test-Path \"$env:AppData\\foobar2000\")) {",
+        "    info '[Portable Mode]: Copying user data...'",
+        "    Copy-Item \"$env:AppData\\foobar2000\\*\" -Destination \"$persist_dir\\profile\" -Force -Recurse",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\profile\\playlists-v1.4\")) {",
+        "    Get-ChildItem -Path \"$persist_dir\\profile\" -Filter \"playlists\" -Directory | Rename-Item -NewName \"playlists-v1.4\" -Force",
+        "}",
+        "Get-ChildItem -Path \"$persist_dir\\profile\" -Filter \"playlists\" | Remove-Item -Force -Recurse"
+    ],
+    "persist": "profile"
 }
