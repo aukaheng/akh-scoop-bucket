@@ -3,7 +3,7 @@
     "description": "An advanced freeware audio player for the Windows platform.",
     "homepage": "https://www.foobar2000.org/",
     "url": "https://www.foobar2000.org/getfile/foobar2000-x64_v2.0_beta_26.exe#/dl.7z",
-    "hash": "0FE908975612B716F52F85C8F79B346063A1D2159D5FAD1CB8BB86E4ECFC8CDA",
+    "hash": "c3907464784c25d7cf94d3d60c648fa32ba5a0eb23a6bacedc113a07ee94a9f4",
     "bin": "foobar2000.exe",
     "shortcuts": [
         [
