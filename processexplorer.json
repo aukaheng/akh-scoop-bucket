@@ -1,7 +1,7 @@
 {
+  "version": "17.04",
   "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
-  "version": "17.03",
-  "hash": "52C6C5439A5DAD4C570D92C23A7EC32CC7E3E6C100D96EC07AF620299D061341",
+  "hash": "9A5BC19E03FCC785F8AE322593E5AAE9B287E9A891DC999689708761FC70AA0B",
   "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
   "bin": "procexp64.exe",
   "shortcuts": [
