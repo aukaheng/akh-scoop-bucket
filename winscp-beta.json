@@ -1,8 +1,8 @@
 {
   "homepage": "https://sourceforge.net/projects/winscp/files/WinSCP/",
-  "version": "6.0.1",
-  "url": "https://udomain.dl.sourceforge.net/project/winscp/WinSCP/6.0.1%20beta/WinSCP-6.0.1.beta-Portable.zip",
-  "hash": "1E2A5F2FF6DDC1BE3F6C0B28A034D6D905B59C380BCF753A5D38F3579F2DE1D9",
+  "version": "6.0.2",
+  "url": "https://udomain.dl.sourceforge.net/project/winscp/WinSCP/6.0.2%20RC/WinSCP-6.0.2.RC-Portable.zip",
+  "hash": "AE8999A545451BA7335E4874815BC85E7C25C023AA5D4A8936394F1FA80937CB",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\winscp.ini\")) {",
     "    @(",
