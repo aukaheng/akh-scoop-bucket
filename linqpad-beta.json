@@ -2,7 +2,7 @@
   "version": "7.7.10",
   "homepage": "https://www.linqpad.net",
   "description": "The .NET programmer’s playground.",
-  "url": "https://linqpad.azureedge.net/preview/LINQPad7-Beta.zip?cache=7.7.11.1700534",
+  "url": "https://linqpad.azureedge.net/preview/LINQPad7-Beta.zip",
   "hash": "F1A18CCCD7266EC2BFB05775D9D3AFCDA4E730A2A91295DDD9D5722D82E2A524",
   "bin": [
     "LPRun7-x64.exe",
