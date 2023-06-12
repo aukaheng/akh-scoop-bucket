@@ -1,8 +1,8 @@
 {
   "homepage": "https://www.kcsoftwares.com/?sumo",
-  "version": "5.17.6.538",
+  "version": "5.17.7.539",
   "url": "https://www.kcsoftwares.com/files/sumo.zip",
-  "hash": "F964EFC5B3078BA3225AE4375CED3985509DD102F5EE317AC4DB253E4C320E0B",
+  "hash": "869EECAEE87DC81262801F12A39F22B9D2A3297FF62D6B4644DEEAA7E0D1CB12",
   "bin": "SUMo.exe",
   "shortcuts": [
     [
