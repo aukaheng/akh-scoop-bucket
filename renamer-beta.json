@@ -1,8 +1,8 @@
 {
-  "version": "7.5.0.2",
+  "version": "7.5.0.3",
   "homepage": "https://www.den4b.com/products/renamer",
   "url": "https://www.den4b.com/download/renamer/beta?token=scoop#/dl.zip",
-  "hash": "368C4174EEC6B29B005DB94B10556A7A19E5BAB661168253BF33DCE5D90B339E",
+  "hash": "7058D43482C8B4983E96016C587F19443C36E94AC2B90CF4F380A56B939C277E",
   "bin": "ReNamer.exe",
   "shortcuts": [
     [
