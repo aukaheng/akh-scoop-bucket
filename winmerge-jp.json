@@ -3,7 +3,7 @@
   "homepage": "https://winmergejp.bitbucket.io",
 
   "url": "https://github.com/sdottaka/winmerge-v2-jp/releases/download/2.16.42%2Bjp-3/winmerge-2.16.42-jp-3-exe.zip",
-  "hash": "D8F592168BC7E3607B1A8CCB8ECBA9DCB9B1910A74EBC389403EE6BD33710435",
+  "hash": "271f37def114d16b11dbd140a4dee8f948af8dcb9d80c004654a42544ec02f99",
 
   "extract_dir": "WinMerge",
   "bin": "WinMergeU.exe",
