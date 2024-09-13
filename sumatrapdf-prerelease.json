@@ -29,5 +29,5 @@
     ]
   ],
   "persist": "SumatraPDF-settings.txt",
-  "notes": "Run the .exe with the -register-for-pdf flag. Extract libmupdf.dll and PdfPreview.dll into somewhere else and use regsvr32.exe to activate the thumbnail preview."
+  "notes": ""
 }
