@@ -1,9 +1,9 @@
 {
-  "version": "2.16.42+-jp-3",
+  "version": "2.16.44+-jp-1",
   "homepage": "https://winmergejp.bitbucket.io",
 
-  "url": "https://github.com/sdottaka/winmerge-v2-jp/releases/download/2.16.42%2Bjp-3/winmerge-2.16.42-jp-3-exe.zip",
-  "hash": "271f37def114d16b11dbd140a4dee8f948af8dcb9d80c004654a42544ec02f99",
+  "url": "https://github.com/sdottaka/winmerge-v2-jp/releases/download/2.16.44%2Bjp-1/winmerge-2.16.44-jp-1-x64-exe.zip",
+  "hash": "1BA54414B38ADCD3F38FC1F454C4362277CC54CF36C0C1E26C2B4F599F75A6CD",
 
   "extract_dir": "WinMerge",
   "bin": "WinMergeU.exe",
