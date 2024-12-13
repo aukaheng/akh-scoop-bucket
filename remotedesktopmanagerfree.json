@@ -9,5 +9,16 @@
       "RemoteDesktopManager.exe",
       "Remote Desktop Manager"
     ]
+  ],
+  "persist": [
+    "RemoteDesktopManager.cfg",
+    "RemoteDesktopManager.enb",
+    "RemoteDesktopManager.enc",
+    "RemoteDesktopManager.exb",
+    "RemoteDesktopManager.ext",
+    "RemoteDesktopManagerLayout.lyt",
+    "RemoteDesktopManager.qtb",
+    "RemoteDesktopManager.stb",
+    "RemoteDesktopManager.stv"
   ]
 }
