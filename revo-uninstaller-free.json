@@ -12,5 +12,8 @@
       "RevoUPort.exe",
       "Revo Uninstaller"
     ]
+  ],
+  "persist": [
+      "settings.ini"
   ]
 }
