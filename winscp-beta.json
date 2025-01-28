@@ -1,8 +1,8 @@
 {
-  "version": "6.4.1",
+  "version": "6.4.2",
   "homepage": "https://sourceforge.net/projects/winscp/files/WinSCP/",
-  "url": "https://cyfuture.dl.sourceforge.net/project/winscp/WinSCP/6.4.1%20beta/WinSCP-6.4.1.beta-Portable.zip",
-  "hash": "0EEDB21B1C0272807D26C7B64C672E9AE92D9A2128A2BB8D8E7F73A8CD28CB4A",
+  "url": "https://zenlayer.dl.sourceforge.net/project/winscp/WinSCP/6.4.2%20beta/WinSCP-6.4.2.beta-Portable.zip",
+  "hash": "18EBCF08A34BE5633DD38659AD816700456E9D2F8657306EC4B149BCAF8BC17D",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\winscp.ini\")) {",
     "    @(",
