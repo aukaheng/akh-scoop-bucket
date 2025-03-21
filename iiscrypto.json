@@ -1,0 +1,13 @@
+{
+  "version": "4.0+18",
+  "homepage": "https://www.nartac.com/products/iiscrypto",
+  "url": "https://download.nartacsoftware.com/IISCrypto/IISCrypto.exe",
+  "hash": "0C66224B96231C268A767F5F6FF7C4DCD195263E757794915727627A61DC5175",
+  "bin": "IISCrypto.exe",
+  "shortcuts": [
+    [
+      "IISCrypto.exe",
+      "IIS Crypto"
+    ]
+  ]
+}
