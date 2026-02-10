@@ -1,8 +1,8 @@
 {
-  "version": "6.5.5",
+  "version": "6.6",
   "homepage": "https://sourceforge.net/projects/winscp/files/WinSCP/",
-  "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/6.5.5/WinSCP-6.5.5-Portable.zip",
-  "hash": "BC385C797112E6E13B398731B9EC981C27821A65DB1CB43E03B4E24FA4671052",
+  "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/6.6%20beta/WinSCP-6.6.beta-Portable.zip",
+  "hash": "A31DF27C4AEE25B4089121DB0B339C6AC102F21E770FEC53BDE8E981F9C1D77B",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\winscp.ini\")) {",
     "    @(",
