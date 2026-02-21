@@ -1,4 +1,4 @@
-using SimpleStore.Application.Abstractions;
+using SimpleStore.Application.Repositories;
 using SimpleStore.Application.Services;
 using SimpleStore.Infrastructure.Persistence;
 

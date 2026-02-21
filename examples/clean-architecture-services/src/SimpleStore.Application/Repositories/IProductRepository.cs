@@ -1,6 +1,6 @@
 using SimpleStore.Domain.Entities;
 
-namespace SimpleStore.Application.Abstractions;
+namespace SimpleStore.Application.Repositories;
 
 public interface IProductRepository
 {

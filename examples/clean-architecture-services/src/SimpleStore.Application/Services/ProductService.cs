@@ -1,5 +1,5 @@
-using SimpleStore.Application.Abstractions;
 using SimpleStore.Application.Contracts;
+using SimpleStore.Application.Repositories;
 using SimpleStore.Domain.Entities;
 
 namespace SimpleStore.Application.Services;

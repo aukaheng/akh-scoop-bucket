@@ -1,6 +1,6 @@
 using SimpleStore.Application.Contracts;
 
-namespace SimpleStore.Application.Abstractions;
+namespace SimpleStore.Application.Services;
 
 public interface IProductService
 {

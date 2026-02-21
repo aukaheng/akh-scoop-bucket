@@ -17,12 +17,12 @@ examples/clean-architecture-services/
     |   |-- Program.cs
     |   `-- SimpleStore.Api.csproj
     |-- SimpleStore.Application/
-    |   |-- Abstractions/
-    |   |   |-- IProductRepository.cs
-    |   |   `-- IProductService.cs
     |   |-- Contracts/
     |   |   `-- ProductDto.cs
+    |   |-- Repositories/
+    |   |   `-- IProductRepository.cs
     |   |-- Services/
+    |   |   |-- IProductService.cs
     |   |   `-- ProductService.cs
     |   `-- SimpleStore.Application.csproj
     |-- SimpleStore.Domain/

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using SimpleStore.Application.Abstractions;
 using SimpleStore.Application.Contracts;
+using SimpleStore.Application.Services;
 
 namespace SimpleStore.Api.Controllers;
 
