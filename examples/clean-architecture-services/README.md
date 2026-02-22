@@ -19,6 +19,8 @@ examples/clean-architecture-services/
     |-- SimpleStore.Application/
     |   |-- Contracts/
     |   |   `-- ProductDto.cs
+    |   |-- Integrations/
+    |   |   `-- IPartyAClient.cs
     |   |-- Repositories/
     |   |   `-- IProductRepository.cs
     |   |-- Services/
@@ -30,6 +32,12 @@ examples/clean-architecture-services/
     |   |   `-- Product.cs
     |   `-- SimpleStore.Domain.csproj
     `-- SimpleStore.Infrastructure/
+        |-- Integrations/
+        |   `-- PartyA/
+        |       |-- Contracts/
+        |       |   |-- PartyAPriceRequest.cs
+        |       |   `-- PartyAPriceResponse.cs
+        |       `-- PartyAClient.cs
         |-- Persistence/
         |   `-- InMemoryProductRepository.cs
         `-- SimpleStore.Infrastructure.csproj
@@ -38,10 +46,25 @@ examples/clean-architecture-services/
 ## Layer Responsibilities
 
 - **Domain**: core entities and business rules.
-- **Application**: use-case/service logic and interfaces (ports).
+- **Application**: use-case/service logic and interfaces (ports for repositories and integrations).
 - **Infrastructure**: implementation details (repositories, external systems).
 - **Api**: HTTP entry point and dependency injection wiring.
 
 ## Service-based flow
 
 `ProductsController -> IProductService (ProductService) -> IProductRepository (InMemoryProductRepository)`
+
+When `price <= 0`, `ProductService` also calls:
+
+`IProductService (ProductService) -> IPartyAClient (PartyAClient)`
+
+## External REST API placement
+
+- Put third-party REST request/response classes in **Infrastructure** (integration details).
+- Keep a port interface in **Application** (for example `IPartyAClient`).
+- Keep **Domain** free of provider-specific payload models.
+
+## Rule of thumb
+
+- **Database-related persistence** -> usually a **Repository** interface in Application + implementation in Infrastructure.
+- **External REST/API communication** -> usually an **Integration client/gateway** interface in Application + implementation and contracts in Infrastructure.

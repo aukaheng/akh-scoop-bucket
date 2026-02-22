@@ -1,4 +1,5 @@
 using SimpleStore.Application.Contracts;
+using SimpleStore.Application.Integrations;
 using SimpleStore.Application.Repositories;
 using SimpleStore.Domain.Entities;
 
@@ -7,10 +8,12 @@ namespace SimpleStore.Application.Services;
 public sealed class ProductService : IProductService
 {
     private readonly IProductRepository _productRepository;
+    private readonly IPartyAClient _partyAClient;
 
-    public ProductService(IProductRepository productRepository)
+    public ProductService(IProductRepository productRepository, IPartyAClient partyAClient)
     {
         _productRepository = productRepository;
+        _partyAClient = partyAClient;
     }
 
     public async Task<IReadOnlyList<ProductDto>> GetAllAsync(CancellationToken cancellationToken = default)
@@ -21,7 +24,13 @@ public sealed class ProductService : IProductService
 
     public async Task<ProductDto> CreateAsync(string name, decimal price, CancellationToken cancellationToken = default)
     {
-        var product = new Product(name, price);
+        var resolvedPrice = price;
+        if (resolvedPrice <= 0)
+        {
+            resolvedPrice = await _partyAClient.GetRecommendedPriceAsync(name, cancellationToken);
+        }
+
+        var product = new Product(name, resolvedPrice);
         await _productRepository.AddAsync(product, cancellationToken);
         return Map(product);
     }
