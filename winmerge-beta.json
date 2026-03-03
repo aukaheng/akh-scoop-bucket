@@ -4,7 +4,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.54.2/winmerge-2.16.54.2-x64-exe.zip",
-      "hash": "531BCE09F2F01626C2BA2B65EB4423676D5329BFACA45FA75DEDEA5D3DDCD341"
+      "hash": "3832f9db8d4d2210c3a049a8c30aed16ea152a329ae0c1b0dbf9308adbc9fc5e"
     }
   },
   "extract_dir": "WinMerge",
