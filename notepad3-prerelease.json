@@ -20,8 +20,8 @@
   ],
   "persist": [
     [
-      "grepwin.ini",
-      "grepWin\\grepwin.ini"
+      "grepWin\\grepwin.ini",
+      "grepwin.ini"
     ],
     "minipath.ini",
     "Notepad3.ini"
