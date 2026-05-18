@@ -1,0 +1,24 @@
+using SimpleStore.Application.Integrations;
+using SimpleStore.Application.Repositories;
+using SimpleStore.Application.Services;
+using SimpleStore.Infrastructure.Integrations.PartyA;
+using SimpleStore.Infrastructure.Persistence;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+
+// Service-based application flow (no CQRS handlers).
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddSingleton<IProductRepository, InMemoryProductRepository>();
+builder.Services.AddHttpClient<IPartyAClient, PartyAClient>(client =>
+{
+    client.BaseAddress = new Uri("https://api.partya.example/");
+});
+
+var app = builder.Build();
+
+app.UseHttpsRedirection();
+app.MapControllers();
+
+app.Run();
