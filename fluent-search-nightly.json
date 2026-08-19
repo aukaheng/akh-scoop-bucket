@@ -1,8 +1,8 @@
 {
-    "version": "1.1.1.6",
+    "version": "1.5.0.0",
     "homepage": "https://github.com/adirh3/Fluent-Search/releases",
-    "url": "https://github.com/adirh3/Fluent-Search/releases/download/1.1.1.6/fluent-search-portable-x64.zip",
-    "hash": "56AF7BAA3AB7F43A594B7D70EAB82CBF6646B05622862098B2603652C3B7BC77",
+    "url": "https://github.com/adirh3/Fluent-Search/releases/download/1.5.0.0/fluent-search-portable-x64.zip",
+    "hash": "C6FD6A33B0A95E2FCAC7F97CD4D7140F92C8BE38E9614D4128B8F2A9DFC38B46",
     "shortcuts": [
         [
             "FluentSearch.exe",
