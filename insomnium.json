@@ -1,12 +1,12 @@
 {
-    "version": "0.3.3",
+    "version": "0.6.0",
     "description": "The Insomnia HTTP and GraphQL client with online functionality removed",
     "homepage": "https://github.com/yokomohoyo/insomnium",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yokomohoyo/insomnium/releases/download/0.3.3/insomnium-0.3.3-full.nupkg",
-            "hash": "56FB793C7B790E8A990D2441E496096527A73E2F47DB0A2CA8EE4FC8AEAB31BA"
+            "url": "https://github.com/yokomohoyo/insomnium/releases/download/0.6.0/insomnium-0.6.0-full.nupkg",
+            "hash": "ADA6B0041348FF04DCA1D75F9D7D9705A717C398E7FCE3E1BB958F6AB4F08256"
         }
     },
     "extract_dir": "lib\\net45",
